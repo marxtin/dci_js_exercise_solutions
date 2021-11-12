@@ -49,7 +49,9 @@ function isPalindrome(str) {
   return true
 }
 
-// str[i] !== str[len - 1 - i]) means: 
+//IMPORTANT!////////////////////////////////
+/////// str[i] !== str[str.length - 1 - i]) means:  the string is str.length long, we start at the end ( - 1), and go each position backwards to the start of the string (-i).
+
 ///As long as the characters from each part match, the FOR loop will go on
 // When the characters don't match anymore, false is returned and we exit the FOR loop
 
