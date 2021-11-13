@@ -13,3 +13,7 @@
 1. fibonacci sequence function
    - for loop
    - array.push()
+
+2. geometric sequence function 
+   - for loop 
+   - Math.pow()
