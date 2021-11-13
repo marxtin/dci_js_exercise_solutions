@@ -205,3 +205,17 @@ The join() method joins all elements of an array into a string. */
 /// This happens with += , the addition assignment operator. You add what you assign with each iteration. 
 
 
+function fibonacci (iterations = 7) {
+      
+    let arr = [];
+    let fib = [0, 1];
+    for (let index = 2; index < iterations; index++) {
+        fib[index] = fib[index - 1] + fib[index - 2]; 
+        arr.push(fib[index]);
+        
+    }
+    return arr
+    }
+
+
+console.log(fibonacci(10));    
