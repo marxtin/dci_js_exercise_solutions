@@ -11,18 +11,30 @@
 #### in alphabetical order 
 
 1. fibonacci sequence function
-   - for loop
+   - for-loop
    - array.push()
 
 2. geometric sequence function 
-   - for loop 
+   - for-loop 
    - Math.pow()
 
-3. multi-dimensional array multiplication function
+3. largest number in array and
+   largest sub-array functions
+   - for-loop   
+   - if-statement
+   - Math.max()
+   - spread operator ...
+   (to-do: explanations)
+
+4. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-4. reverse number function
+5. Palindrome 1
+   - for-loop   
+   - if-statement
+
+5. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
