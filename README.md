@@ -6,7 +6,7 @@
 
 - they start wit 03_pb_ 
 
-### 2. my own exercises/implementations and solutions with explanations 
+### 2. tutorium exercises/implementations and solutions with explanations 
 
 #### in alphabetical order 
 
