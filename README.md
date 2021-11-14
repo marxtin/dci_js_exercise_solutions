@@ -20,4 +20,5 @@
 
 3. multi-dimensional array multiplication function
    - nested for loop (2 loops)
+   - multiplication assignment operator
  
