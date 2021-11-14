@@ -17,3 +17,7 @@
 2. geometric sequence function 
    - for loop 
    - Math.pow()
+
+3. multi-dimensional array multiplication function
+  - nested for loop (2 loops)
+ 
