@@ -16,7 +16,7 @@ console.log(Number(reverse_a_number(12345)));
 /// Code : -> n = n + "";
     /// note: there are several ways to do this, but to me
     /// n = n + "" seemed the easiest to understand, 
-    /// you assign the 
+    /// intuitively, a bit. 
 
 ///STEP 2: The split() method is used to split a String object into an 
 ///array of strings by separating the string into substrings.
