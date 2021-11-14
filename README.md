@@ -13,3 +13,12 @@
 1. fibonacci sequence function
    - for loop
    - array.push()
+
+2. geometric sequence function 
+   - for loop 
+   - Math.pow()
+
+3. multi-dimensional array multiplication function
+   - nested for loop (2 loops)
+   - multiplication assignment operator
+ 
