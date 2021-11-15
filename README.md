@@ -10,15 +10,24 @@
 
 #### in alphabetical order 
 
-1. fibonacci sequence function
+1. Check for character in string functions
+   - 5 different ways
+   - arrow-functions
+   - just true/false or
+   - print sentence
+   - for-loop, if-condition
+   - includes()
+
+
+2. fibonacci sequence function
    - for-loop
    - array.push()
 
-2. geometric sequence function 
+3. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-3. largest number in array and
+4. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
@@ -26,15 +35,15 @@
    - spread operator ...
    (to-do: explanations)
 
-4. multi-dimensional array multiplication function
+5. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-5. Palindrome 1
+6. Palindrome 1
    - for-loop   
    - if-statement
 
-5. reverse number function
+7. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor

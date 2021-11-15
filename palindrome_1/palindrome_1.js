@@ -13,7 +13,7 @@ function isPalindrome(str) {
  
 
  /////// if (str[i] !== str[str.length - 1 - i]) means:  
- ///check if the elements of the string left of the operator are strictly not equal to the elemtents to the right, whereas:
+ ///check if the elements of the string left of the operator are strictly not equal to the elements to the right, whereas:
  ///str[str.length - 1 - i] checks every element from the end towards the beginning of the string
  /// ----> As long as the characters from each part match, the FOR loop will go on 
 
