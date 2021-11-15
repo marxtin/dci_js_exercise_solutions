@@ -47,5 +47,10 @@
    - string methods
      **split(), reverse(), join()**
    - number constructor
-     Number()     
+     Number()   
+
+8. sum of multiples functions
+   - with one and three arguments
+   - modulo, logical + comparison operators
+   - for-loop, if-condition       
  
