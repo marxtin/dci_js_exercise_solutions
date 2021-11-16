@@ -124,8 +124,7 @@ The join() method joins all elements of an array into a string. */
 
 
 
-// // Step 2. Use the same chaining methods with built-in functions from the previous article 
-
+// // Step 2. Use the same chaining methods with built-in functions 
 // lowRegStr.split('') = "amanaplanacanalpanama".split('') = ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"]
 
 // ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"].reverse() = ["a", "m", "a", "n", "a", "p", "l", "a", "n", "a", "c", "a", "n", "a", "l", "p", "a", "n", "a", "m", "a"]
