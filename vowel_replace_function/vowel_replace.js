@@ -5,8 +5,9 @@
 // vowelReplace("Contrabass") --> "Cintribiss"
 
 function vowelReplace(str) {
-    str = str.toLowerCase();
-    let newArray = str.split(' ');
+    let re = /[\W]/g;
+    let newString = str.toLowerCase().replace(re, '');;
+    let newArray = newString.split('');
     console.log(newArray);
 }
 
