@@ -4,7 +4,12 @@
 
 ### 1. solutions to exercises from our course 
 
-- they start wit 03_pb_ 
+- they start wit 03_pb_
+
+- pb_assessment_16_11_21:
+
+   ***Assessment Test*** of 16.11.2021
+   --> my solutions with explanations for the tougher tasks
 
 ### 2. tutorium exercises and solutions with explanations 
 
