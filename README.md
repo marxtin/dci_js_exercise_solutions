@@ -18,20 +18,23 @@
    - for-loop, if-condition
    - includes()
 
+2. check function for word , number
+   - logical & comparison operators (including !)
+   - isNaN functions
 
-2. fibonacci sequence function
+3. fibonacci sequence function
    - for-loop
    - array.push()
 
-3. fizzbuzz - function
+4. fizzbuzz - function
    - for-loop, else-if
    - logical and comparison operators   
 
-4. geometric sequence function 
+5. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-5. largest number in array and
+6. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
@@ -39,21 +42,21 @@
    - spread operator ...
 
 
-6. multi-dimensional array multiplication function
+7. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-7. Palindrome 1
+8. Palindrome 1
    - for-loop   
    - if-statement
 
-8. reverse number function
+9. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-9. sum of multiples functions
+10. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       

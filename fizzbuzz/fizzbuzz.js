@@ -38,4 +38,5 @@ function fizzBuzz(start, end){
 }
 
 
-fizzBuzz(1,10)
+fizzBuzz(1,20)
+
