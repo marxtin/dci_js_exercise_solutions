@@ -33,15 +33,19 @@
    - for-loop
    - array.push()
 
-4. fizzbuzz - function
+4. first letter uppercase function (each word in string)
+   - toUpperCase ()
+   - split(), charAt(), push(), slice(), join()
+
+5. fizzbuzz - function
    - for-loop, else-if
    - logical and comparison operators   
 
-5. geometric sequence function 
+6. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-6. largest number in array and
+7. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
@@ -49,21 +53,21 @@
    - spread operator ...
 
 
-7. multi-dimensional array multiplication function
+8. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-8. Palindrome 1
+9. Palindrome 1
    - for-loop   
    - if-statement
 
-9. reverse number function
+10. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-10. sum of multiples functions
+11. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       
