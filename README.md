@@ -22,6 +22,13 @@
    - logical & comparison operators (including !)
    - isNaN functions
 
+3. check even or odd 
+  - one number
+  - numbers 0 to n
+  - ternary ? : 
+  - modulo
+
+
 3. fibonacci sequence function
    - for-loop
    - array.push()
