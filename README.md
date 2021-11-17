@@ -72,7 +72,13 @@
    - number constructor
      Number()   
 
-11. sum of multiples functions
+11. sort stuff
+    - alphabetically, digits 0-9
+    - nested loop
+    - split(),join()
+    - sort()     
+
+12. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       

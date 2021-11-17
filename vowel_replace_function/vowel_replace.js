@@ -9,7 +9,7 @@ function vowelReplace(str, replacement) {
   return newString.charAt(0).toUpperCase() + newString.slice(1);
 }
 
-console.log(vowelReplace("Drei Bassisten mit dem Kontrabass", "i"));
+console.log(vowelReplace("Hello", "i"));
 
 
 
