@@ -62,7 +62,7 @@
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-9. Palindrome 1
+9. Palindrome 1.
    - for-loop   
    - if-statement
 
