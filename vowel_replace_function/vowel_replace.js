@@ -1,6 +1,7 @@
 // Vowel replace. Replace all vowels of a string with one vowel, like this:
 
 // vowelReplace("Contrabass") --> "Cintribiss"
+// RegExp 
 
 function vowelReplace(str, replacement) {
   let reg = /[aeiou]/g;
@@ -9,8 +10,11 @@ function vowelReplace(str, replacement) {
   return newString.charAt(0).toUpperCase() + newString.slice(1);
 }
 
-console.log(vowelReplace("Hello", "i"));
+console.log(vowelReplace("Hello I am Martin", "i"));
 
+
+//RegExp (regular expression) /[aeiou]/ 
+//
 
 
 
@@ -19,8 +23,9 @@ console.log(vowelReplace("Hello", "i"));
 function replaceVowels(str, replacement) {
   let newString = str.toLowerCase();
   let newerArray = newString.split("");
-
+  console.log(newerArray);
   newerArray.map(function (item, i) {
+   
     if (
       item === "a" ||
       item === "e" ||
@@ -37,3 +42,5 @@ function replaceVowels(str, replacement) {
 }
 
 console.log(replaceVowels("Drei Bassisten mit dem Kontrabass", "i"));
+
+
