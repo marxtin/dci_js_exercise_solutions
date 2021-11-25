@@ -61,4 +61,33 @@ const highestPeaks = [
 
 console.log(highestPeaks);
 
-  
+
+/*I want to add a new key,value pair: country: "some value":
+although map returns a new array, it's only a shallow copy. 
+My new property is added to the elements in the source array as well, 
+since they're pointing to the same objects.
+
+If I don't want to modify the elements in the source array, I will need to copy them. 
+The simplest option is probably to use the spread operator
+*/
+
+function addKeyAndValue(arr, key, value) {
+    return arr.map((obj) => ({ ...obj, [key]: value }));
+}
+
+const newArray = addKeyAndValue(highestPeaks, 'country', ' ')
+
+console.log(newArray);
+
+///Find Index of desired object, where to put the new value? 
+objIndex = newArray.findIndex((obj => obj.name == "Shishapangma"));
+
+console.log(objIndex);
+
+
+///for Shishapangma, the index is [13], so now I can just target this object and 
+/// state what value should be inserted into
+
+newArray[objIndex].country = "VR China";
+
+console.log(newArray);

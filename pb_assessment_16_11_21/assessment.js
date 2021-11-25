@@ -43,9 +43,13 @@ Create a function named "isDivisible". The function should take an integer numbe
     return false;
   }
   
-  console.log(isDivisible(100));
-  console.log(isDivisible(1000));
-  console.log(isDivisible(1));
+const  isDivisible2 = a => a%100 === 0;
+const  isDivisible3 = a => !(a%100);
+
+
+  console.log(isDivisible3(100));
+  console.log(isDivisible3(1000));
+  console.log(isDivisible3(1));
   
   /* 3 
   Create a function named "missingAngle" which takes two angles of a triangle as arguments, and classifies the missing angle as either acute, right or obtuse. 
@@ -53,7 +57,7 @@ Create a function named "isDivisible". The function should take an integer numbe
 
 */
   
-  function missingAngle(a, b) {
+  function missingAngle(a=90, b=90) {
     let c = 180 - a - b;
     if (c < 90) {
       return "Acute angle.";
@@ -106,7 +110,7 @@ Use a **ternary operator** to complete this task. Create a function named "_isRa
   /* 5 
   Create a function named "_geometricalSequence_" and **use a loop** to return the following sequence: _`1 2 4 8 16 32 64 128 256`_. Concatenate each value to a string and return a string.*/
   
-  function geometricalSequence(iterations ) {
+  function geometricalSequence(iterations = 9) {
     let str = "";
     for (let index = 0; index < iterations; index++) {
       str += `${Math.pow(2, index)},`;
@@ -119,7 +123,7 @@ Use a **ternary operator** to complete this task. Create a function named "_isRa
   /* 6 
   Create a function named "_multiplesOfThree_" and **use a loop** to return the first five multiples of three: _`3 6 9 12 15`_. Concatenate each value to a string and return a string.*/
   
-  function mutliplesOfThree(n) {
+  function mutliplesOfThree(n = 6) {
     let str = "";
     for (let x = 1; x <= n; x++) {
       str += `${x * 3},`;
