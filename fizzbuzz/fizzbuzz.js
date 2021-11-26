@@ -1,4 +1,3 @@
-
 /* 
 
 
@@ -12,31 +11,22 @@ For numbers start to end we need to do something
 If the number is a multiple of 3 log “Fizz” instead of the number
 If the number is a multiple of 5 log “Buzz” instead of the number
 If the number is a multiple of 3 AND 5 log “FizzBuzz” instead of the number
-If not logging “Fizz”, “Buzz”, or “FizzBuzz” log the number
+If = else ///not logging “Fizz”, “Buzz”, or “FizzBuzz” log the number
 
 */
 
-
-
-
-
-function fizzBuzz(start, end){
-    for(let num=start; num <= end; num++){
-        if(num % 5 === 0 && num % 3 === 0){
-          console.log("FizzBuzz")
-        }   
-        else if(num % 3 === 0){
-          console.log("Fizz")
-        }
-        else if(num % 5 === 0){
-          console.log("Buzz")
-        }
-        else {
-          console.log(num)
-        }
+function fizzBuzz(start, end) {
+  for (let num = start; num <= end; num++) {
+    if (num % 5 === 0 && num % 3 === 0) {
+      return "Fizzbuzz"
+    } else if (num % 3 === 0) {
+      return "Fizz"
+    } else if (num % 5 === 0) {
+      return "Buzz"
+    } else {
+      return num
     }
+  }
 }
 
-
-fizzBuzz(1,20)
-
+console.log(fizzBuzz(1,25))
