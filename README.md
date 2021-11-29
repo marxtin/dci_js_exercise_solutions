@@ -11,6 +11,10 @@
    ***Assessment Test*** of 16.11.2021
    --> my solutions with explanations for the tougher tasks
 
+#### 1.2. official solutions by Sebastian
+
+- seb_sol_objects-practice-4
+
 ### 2. tutorium exercises and solutions with explanations 
 
 #### in alphabetical order 
