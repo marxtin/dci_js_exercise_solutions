@@ -16,7 +16,7 @@
 - seb_sol_objects-practice-4
 - seb_sol_callbacks-practice
 
-### 2. tutorium exercises and solutions with explanations 
+### 2. "my" class/tutorium code, exercises and solutions (sometimes with explanations)
 
 #### in alphabetical order 
 
@@ -51,39 +51,42 @@
    - for-loop, else-if
    - logical and comparison operators   
 
-6. geometric sequence function 
+6. forEach   
+
+7. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-7. largest number in array and
+8. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
    - Math.max()
    - spread operator ...
 
+10. map
 
-8. multi-dimensional array multiplication function
+11. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-9. Palindrome 1.
+12. Palindrome 1.
    - for-loop   
    - if-statement
 
-10. reverse number function
+13. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-11. sort stuff
+14. sort stuff
     - alphabetically, digits 0-9
     - nested loop
     - split(),join()
     - sort()     
 
-12. sum of multiples functions
+15. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       

@@ -1,7 +1,7 @@
 /// TASK 1.
 
 function salute(i){
-    return `Hello ${i}`
+    return `Hey ${i}`
 }
 
 function salute_2(x){
@@ -27,6 +27,8 @@ function greetUsers(array){
 }
 
 greetUsers(users)
+
+
 
 
 ///with Array.prototype.forEach
@@ -64,4 +66,36 @@ function powerArray(callback){
     numbersArray.forEach(callback)
     }
 
-powerArray(powerOfLog)    
+powerArray(powerOfLog)   
+
+
+//Task 2, version more according to exercise (squareAll to accept two args)
+
+
+
+function square(num) {
+    return num**2
+}
+
+function squareAll(array, callback){
+    let result = []
+    for (let element of array) {
+        result.push(callback(element))
+    }
+    return result
+}
+
+console.log(squareAll(numbersArray, square));
+
+
+
+
+
+
+
+
+
+
+
+
+
