@@ -14,6 +14,7 @@
 #### 1.2. official solutions by Sebastian
 
 - seb_sol_objects-practice-4
+- seb_sol_callbacks-practice
 
 ### 2. tutorium exercises and solutions with explanations 
 
