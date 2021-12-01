@@ -36,52 +36,54 @@ const returnedArray2 = numbersArray2.map((element) => {
 
 console.log(returnedArray2);
 
-
-
 /// ArrayxOfObjects.map
 
-const iliadArray = new Array(
-  { name: "Menelaos", city: "Sparta" },
-  { name: "Paris", city: "Ilios" },
-  { name: "Agamemnon", city: "Mykenai" }
-);
+const iliadArray = new Array({
+  name: "Menelaos",
+  city: "Sparta"
+}, {
+  name: "Paris",
+  city: "Ilios"
+}, {
+  name: "Agamemnon",
+  city: "Mykenai"
+});
 
-const messagesArray = iliadArray.map((item,index) => {
+const messagesArray = iliadArray.map((item, index) => {
   let message = `This is ${item.name} and this person is from ${item.city} and the index of this entry is ${index}`;
   return message;
 });
 
 console.log(messagesArray);
 
-////CREATE OBJECT FROM ARRAY 
+////CREATE OBJECT FROM ARRAY
 
-const usersArray = new Array("Sarpedon", "Penthesilea", "Patroklos")
-
+const usersArray = new Array("Sarpedon", "Penthesilea", "Patroklos");
 
 const usersObjectArray = usersArray.map((user) => {
   const temporalObject = {
-    name: user
-  }
+    name: user,
+  };
   return temporalObject;
-})
+});
 
-console.log(usersObjectArray)
-
-
+console.log(usersObjectArray);
 
 ////Create function to make first letter of string in array of strings uppercase
 
-
-const lowerCaseArray = new Array("cat","rabbit","mouse")
+const lowerCaseArray = new Array("cat", "rabbit", "mouse");
 
 function arrayToUpperCase(array) {
   const temporalArray = array.map(function (string) {
-    return string[0].toUpperCase()+string.slice(1);
-  })
-  return temporalArray
+    return string[0].toUpperCase() + string.slice(1);
+  });
+  return temporalArray;
 }
 
 console.log(arrayToUpperCase(lowerCaseArray));
+
+
+
 
 
 
