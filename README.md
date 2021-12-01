@@ -36,57 +36,65 @@
   - one number
   - numbers 0 to n
   - ternary ? : 
-  - modulo
+  - mod
 
+3. endsWith  
+   - another answer for **afternoon exercise 1 01.12.2021**
 
-3. fibonacci sequence function
+4. fibonacci sequence function
    - for-loop
    - array.push()
 
-4. first letter uppercase function (each word in string)
+5. filter
+   - includes **exercise 1 afternoon 01.12.2021**   
+
+6. first letter uppercase function (each word in string)
    - toUpperCase ()
    - split(), charAt(), push(), slice(), join()
 
-5. fizzbuzz - function
+7. fizzbuzz - function
    - for-loop, else-if
    - logical and comparison operators   
 
-6. forEach   
+8. forEach   
 
-7. geometric sequence function 
+9. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-8. largest number in array and
+10. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
    - Math.max()
    - spread operator ...
 
-10. map
+11. map
 
-11. multi-dimensional array multiplication function
+12. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-12. Palindrome 1.
+13. Palindrome 1.
    - for-loop   
    - if-statement
 
-13. reverse number function
+14. reduce
+   - examples from **01.12.2021**
+
+15. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-14. sort stuff
+16. sort stuff
     - alphabetically, digits 0-9
     - nested loop
     - split(),join()
     - sort()     
 
-15. sum of multiples functions
+17. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       

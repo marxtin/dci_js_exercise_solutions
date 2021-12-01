@@ -52,3 +52,37 @@ const messagesArray = iliadArray.map((item,index) => {
 });
 
 console.log(messagesArray);
+
+////CREATE OBJECT FROM ARRAY 
+
+const usersArray = new Array("Sarpedon", "Penthesilea", "Patroklos")
+
+
+const usersObjectArray = usersArray.map((user) => {
+  const temporalObject = {
+    name: user
+  }
+  return temporalObject;
+})
+
+console.log(usersObjectArray)
+
+
+
+////Create function to make first letter of string in array of strings uppercase
+
+
+const lowerCaseArray = new Array("cat","rabbit","mouse")
+
+function arrayToUpperCase(array) {
+  const temporalArray = array.map(function (string) {
+    return string[0].toUpperCase()+string.slice(1);
+  })
+  return temporalArray
+}
+
+console.log(arrayToUpperCase(lowerCaseArray));
+
+
+
+
