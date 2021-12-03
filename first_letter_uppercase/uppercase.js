@@ -66,3 +66,46 @@ return newarray1.join(' ');
 The join() method joins all elements of an array into a string.
 
 */
+
+
+///with for...of 
+
+
+let string = 'the quick brown fox jumps over the lazy dog'
+
+function uppercase(str)
+{
+  var array1 = str.split(" ");
+  var newarray1 = [];
+ 
+
+  for (let element of array1){
+      newarray1.push(element.charAt(0).toUpperCase()+element.slice(1));
+     
+  }
+  return newarray1.join(" ");
+}
+
+uppercase(string)
+console.log(uppercase(string));
+
+
+
+///with forEach
+
+
+function uppercaseWithForEach(str)
+{
+  var array1 = str.split(" ");
+  var newarray1 = [];
+ 
+
+  array1.forEach(function(value){
+      newarray1.push(value[0].toUpperCase()+value.slice(1));
+     
+  })
+  return newarray1.join(" ");
+}
+
+
+console.log(uppercaseWithForEach(string));

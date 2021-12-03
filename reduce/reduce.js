@@ -90,9 +90,6 @@ function sumReduceWithInitialValue(array, x) {
   return array.reduce(callbackReduceFunction, x);
 }
 
-
-
-
 ////EXERCISE 1 - 01.12.2021
 /* 
 Create a function that accepts an array of objects. The function will return a final amount of orders made.
@@ -108,40 +105,42 @@ console.log(calcAmount(orders)) // This will return 410
 */
 
 const orders = [
-  {orderID:1,amount:50},
-  {orderID:2,amount:150},
-  {orderID:3,amount:10},
-  {orderID:4,amount:200},
-]
+  { orderID: 1, amount: 50 },
+  { orderID: 2, amount: 150 },
+  { orderID: 3, amount: 10 },
+  { orderID: 4, amount: 200 },
+];
 
 function calcAmount(array) {
-  const totalAmount = array.reduce(function(accumulator,element){
+  const totalAmount = array.reduce(function (accumulator, element) {
     return accumulator + element.amount;
-  },0)
+  }, 0);
 }
-
-
-
 
 ////////////Merge two arrays to 1 object
 
 const names = new Array("Mario", "Luigi", "Wario", "Peach", "Toad");
 const ids = new Array(1234, 5678, 6, 87, 9);
 
-
-function createObject(array1,array2){
-
-  let result =  array2.reduce(function(pair, value, index) {
-    pair[array1[index]] = value;
-    return pair;
-  }, {})
-  return result
+function createObject(array1, array2) {
+  
+  let result = array2.reduce((accumulator, element, index)=>{
+    accumulator[array1[index]] = element
+    return accumulator;
+  }, {});
+  return result;
 }
 
 console.log(createObject(names, ids));
 
 
 
+function convertArrays (keyArray,valueArray) {
+  return keyArray.reduce((accum,element,index)=>{
+    accum[element] = valueArray[index]
+    return accum
+  },{})
+}
 
+console.log(convertArrays(names,ids))
 
-  

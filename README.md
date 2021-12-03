@@ -51,6 +51,8 @@
 6. first letter uppercase function (each word in string)
    - toUpperCase ()
    - split(), charAt(), push(), slice(), join()
+   -***new*** with for...of
+   -***new*** with forEach
 
 7. fizzbuzz - function
    - for-loop, else-if
