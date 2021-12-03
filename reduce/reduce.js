@@ -136,9 +136,9 @@ console.log(createObject(names, ids));
 
 
 function convertArrays (keyArray,valueArray) {
-  return keyArray.reduce((accum,element,index)=>{
-    accum[element] = valueArray[index]
-    return accum
+  return keyArray.reduce((accumulator,element,index)=>{
+    accumulator[element] = valueArray[index]
+    return accumumlator
   },{})
 }
 
