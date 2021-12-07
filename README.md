@@ -31,92 +31,95 @@
 2. calculator
    - with object constructor function 
 
-2. check function for word , number
+3. check function for word , number
    - logical & comparison operators (including !)
    - isNaN functions
 
-3. check even or odd 
+4. check even or odd 
   - one number
   - numbers 0 to n
   - ternary ? : 
   - mod
 
-4. Dice function
+5. Dice function
    -adjustible dice roll, for dice with variable number of sides
    -closure   
 
-5. endsWith  
+6. endsWith  
    - another answer for **afternoon exercise 1 01.12.2021**
 
-6. fibonacci sequence function
+7. fibonacci sequence function
    - for-loop
    - array.push()
    - ***recursion*** _new_
 
-7. filter
+8. filter
    - includes **exercise 1 afternoon 01.12.2021**   
    - filter array of strings by first char of string
 
-8. first letter uppercase function (each word in string)
+9. first letter uppercase function (each word in string)
    - toUpperCase ()
    - split(), charAt(), push(), slice(), join()
    - with for...of
    - with forEach
 
-9. fizzbuzz - function
+10. fizzbuzz - function
    - for-loop, else-if
    - logical and comparison operators   
 
-10. forEach   
+11. forEach   
    - ***vowel counter*** in string with ***fallback assignment***
 
-11. geometric sequence function 
+12. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-12. get_num_array_objects_property_value
+13. get_num_array_objects_property_value
    - count instances of property value from objects in array
    - reduce()  
    - ternary 
 
-13. largest number in array and
+14. ladder
+    -object with method-chaining
+
+15. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
    - Math.max()
    - spread operator ...
 
-14. map
+16. map
     - show first and last character in array of strings
 
-15. multi-dimensional array multiplication function
+17. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-16. Palindrome 1.
+18. Palindrome 1.
    - for-loop   
    - if-statement
 
-17. Random number 
+19. Random number 
     - between min & max
     - get a random number (e.g. useful for games)   
 
-18. reduce
+20. reduce
    - examples from **01.12.2021**
 
-19. reverse number function
+21. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-20. sort stuff
+22. sort stuff
     - alphabetically, digits 0-9
     - nested loop
     - split(),join()
     - sort()     
 
-21. sum of multiples functions
+23. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       
