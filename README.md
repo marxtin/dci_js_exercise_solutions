@@ -28,6 +28,9 @@
    - for-loop, if-condition
    - includes()
 
+2. calculator
+   - with object constructor function 
+
 2. check function for word , number
    - logical & comparison operators (including !)
    - isNaN functions
