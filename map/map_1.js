@@ -82,6 +82,26 @@ function arrayToUpperCase(array) {
 
 console.log(arrayToUpperCase(lowerCaseArray));
 
+///show first and last character from strings in array
+
+
+const arrayOfStrings = new Array(
+  "Menelaos",
+  "Helena",
+  "Paris",
+  "Odysseus",
+  "Sarpedon",
+  "Nestor",
+  "Penthesilea",
+  "Achilles"
+);
+
+function showFirstAndLast(array) {
+  return array.map((element) => element.slice(0, 1) + element.slice(-1));
+}
+///return array.map((element) => element[0] + element[element.length - 1])
+console.log(showFirstAndLast(arrayOfStrings));
+
 
 
 

@@ -134,3 +134,24 @@ function filterItems(array, string) {
 }
 
 console.log(filterItems(humans,"ka"));
+
+
+
+//// filter array of strings by first letter of string
+
+const arrayOfStrings = new Array(
+  "Menelaos",
+  "Helena",
+  "Paris",
+  "Odysseus",
+  "Sarpedon",
+  "Nestor",
+  "Penthesilea",
+  "Achilles"
+);
+
+function filterByFirstLetter(array, letter) {
+  return array.filter((element) => element.toLowerCase().charAt(0) === letter);
+}
+
+console.log(filterByFirstLetter(arrayOfStrings, "s"));

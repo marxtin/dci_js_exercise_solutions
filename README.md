@@ -38,65 +38,82 @@
   - ternary ? : 
   - mod
 
-3. endsWith  
+4. Dice function
+   -adjustible dice roll, for dice with variable number of sides
+   -closure   
+
+5. endsWith  
    - another answer for **afternoon exercise 1 01.12.2021**
 
-4. fibonacci sequence function
+6. fibonacci sequence function
    - for-loop
    - array.push()
+   - ***recursion*** _new_
 
-5. filter
+7. filter
    - includes **exercise 1 afternoon 01.12.2021**   
+   - filter array of strings by first char of string
 
-6. first letter uppercase function (each word in string)
+8. first letter uppercase function (each word in string)
    - toUpperCase ()
    - split(), charAt(), push(), slice(), join()
-   -***new*** with for...of
-   -***new*** with forEach
+   - with for...of
+   - with forEach
 
-7. fizzbuzz - function
+9. fizzbuzz - function
    - for-loop, else-if
    - logical and comparison operators   
 
-8. forEach   
+10. forEach   
+   - ***vowel counter*** in string with ***fallback assignment***
 
-9. geometric sequence function 
+11. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-10. largest number in array and
+12. get_num_array_objects_property_value
+   - count instances of property value from objects in array
+   - reduce()  
+   - ternary 
+
+13. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
    - Math.max()
    - spread operator ...
 
-11. map
+14. map
+    - show first and last character in array of strings
 
-12. multi-dimensional array multiplication function
+15. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-13. Palindrome 1.
+16. Palindrome 1.
    - for-loop   
    - if-statement
 
-14. reduce
+17. Random number 
+    - between min & max
+    - get a random number (e.g. useful for games)   
+
+18. reduce
    - examples from **01.12.2021**
 
-15. reverse number function
+19. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-16. sort stuff
+20. sort stuff
     - alphabetically, digits 0-9
     - nested loop
     - split(),join()
     - sort()     
 
-17. sum of multiples functions
+21. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       

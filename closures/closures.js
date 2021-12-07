@@ -142,3 +142,21 @@ function countV2 () {
   console.log(makeAdder(7)(10));
 
 
+
+
+  ////Addition counter 
+  
+  function addAmountMaker() {
+    let add=0;
+   return function (x) {
+       add += x;
+       console.log(add);
+       return add
+   }
+  }
+  const instAdd = addAmountMaker();
+  
+  instAdd(5)
+  instAdd(2)
+  instAdd(10)
+

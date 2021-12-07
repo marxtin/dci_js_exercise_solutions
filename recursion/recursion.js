@@ -64,3 +64,36 @@ obj5.location.region = "Akkad"
 console.log(obj1);
 console.log(obj5);
 
+
+
+//// compute the sum of an array of numbers
+
+let myArray = [1,2,3,4,5,6]
+
+const sum = function(array) {
+  if (array.length === 1) { ///exit condition
+    return array[0];
+  }
+  else {
+    return array.pop() + sum(array);
+  }
+};
+
+console.log(sum(myArray));
+
+
+
+///recursion to get the first n numbers of fibonacci sequence
+
+function fibonacciSequence(n) {
+    if (n === 1) {
+      return [0, 1];
+    } else {
+      let s = fibonacci_series(n - 1);
+      s.push(s[s.length - 1] + s[s.length - 2]);
+      return s;
+    }
+  }
+  
+  console.log(fibonacci_series(8));
+  

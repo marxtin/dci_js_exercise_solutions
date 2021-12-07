@@ -25,3 +25,25 @@ namesArray.forEach((element) => {
 
 ///forEach ---> NEVER RETURNS / DO NOT PUT RETURN into program ---> undefined!!!
 /// also with for loops --> we need an empty variable to put stuff into, then return this variable
+
+
+
+const string = "Martin Bittner";
+const string2 = "Krk";
+
+function vowelCount(str) {
+  let vowels = "aeiou"
+  let strArr = str.toLowerCase().split("");
+  let obj = {};
+  strArr.forEach((element) => {
+    if (vowels.includes(element)) {
+      obj[element] = (obj[element] +1 || 1);
+    }
+  });
+  return obj;
+}
+
+/// obj[element] = (obj[element] +1 || 1); Fallback Assignment
+
+
+console.log(vowelCount(string));

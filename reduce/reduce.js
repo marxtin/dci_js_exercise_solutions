@@ -133,7 +133,7 @@ function createObject(array1, array2) {
 
 console.log(createObject(names, ids));
 
-
+////better Version: 
 
 function convertArrays (keyArray,valueArray) {
   return keyArray.reduce((accumulator,element,index)=>{
@@ -143,4 +143,37 @@ function convertArrays (keyArray,valueArray) {
 }
 
 console.log(convertArrays(names,ids))
+
+
+
+////group users by ID
+
+
+let users = [{
+  id: "john",
+  name: "Jonathan",
+  email: "john@example.com"
+},
+{
+  id: "tanya",
+  name: "Tatiana",
+  email: "tanya@example.com"
+},
+{
+  id: "bob",
+  name: "Robert",
+  email: "bob@example.com"
+},
+]
+
+function groupById(arr) {
+const returnedObject = arr.reduce((accumulator, element) => {
+  console.log(accumulator);
+  accumulator[element.id] = element ///the element is the object, we assign to the id the whole object
+  return accumulator
+}, {})
+return returnedObject
+}
+
+console.log(groupById(users));
 

@@ -1,29 +1,22 @@
+////****FIBONACCI SEQUENCE   */
 
+/////// In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence,
+/////// called the Fibonacci sequence, such that each number is
+/////// the sum of the two preceding ones, starting from 0 and 1.
 
-////****FIBONACCI SEQUENCE with STEP BY STEP GUIDE BELOW  */ 
+///For Loop (recursion below)
 
-/////// In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence, 
-/////// called the Fibonacci sequence, such that each number is 
-/////// the sum of the two preceding ones, starting from 0 and 1. 
+function fibonacci(iterations = 7) {
+  let arr = [];
+  let fib = [0, 1];
+  for (let index = 2; index < iterations; index++) {
+    fib[index] = fib[index - 1] + fib[index - 2];
+    arr.push(fib[index]);
+  }
+  return arr;
+}
 
-
-
-
-function fibonacci (iterations = 7) {
-      
-    let arr = [];
-    let fib = [0, 1];
-    for (let index = 2; index < iterations; index++) {
-        fib[index] = fib[index - 1] + fib[index - 2]; 
-        arr.push(fib[index]);
-        
-    }
-    return arr
-    }
-
-
-console.log(fibonacci(10));    
-
+console.log(fibonacci(10));
 
 /** 
  * STEP 1 
@@ -75,4 +68,18 @@ TO SUMMARIZE:
 
 Now you have a pure, no side-effect function where you just tell your function the number of desired iterations and you get the result in an array
 
-*/ 
+*/
+
+///RECURSION
+
+function fibonacciSequence(n) {
+  if (n === 1) {
+    return [0, 1];
+  } else {
+    let s = fibonacci_series(n - 1);
+    s.push(s[s.length - 1] + s[s.length - 2]);
+    return s;
+  }
+}
+
+console.log(fibonacci_series(8));
