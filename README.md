@@ -117,9 +117,16 @@
     - alphabetically, digits 0-9
     - nested loop
     - split(),join()
-    - sort()     
+    - sort()   
 
-23. sum of multiples functions
+23. scramble words
+    -from ***Mock exam advanced PB*** by James
+    -replace()
+    -RegExp
+    -parseInt()
+
+
+24. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       
