@@ -29,3 +29,40 @@ calculator.a = 5
 calculator.b = 3
 console.log(calculator);
 calculator.read()
+
+
+
+////Calculator Class
+
+class Calculator {
+    constructor(a,b){
+        this.a = a;
+        this.b = b;
+    }
+        sum(){
+            return this.a + this.b
+        };
+        subst(){
+            return this.a - this.b
+        };
+        mul(){
+            return this.a * this.b
+        };
+        div(){
+            return this.a/this.b
+        }
+        read(){
+            console.log(
+                `\n
+                 the sum of ${this.a} and ${this.b} is ${this.sum()}\n
+                 the difference of ${this.a} and ${this.b} is ${this.subst()}\n
+                 the product of ${this.a} and ${this.b} is ${this.mul()}\n
+                 the quotient of ${this.a} and ${this.b} is ${this.div()}\n`);
+        }
+    
+}
+
+const newCalc = new Calculator(2,5);
+
+console.log(newCalc);
+newCalc.read()
