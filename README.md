@@ -21,99 +21,99 @@
 #### in alphabetical order 
 
 1. Check for character in string functions
-   - 5 different ways
-   - arrow-functions
-   - just true/false or
-   - print sentence
-   - for-loop, if-condition
-   - includes()
+    - 5 different ways
+    - arrow-functions
+    - just true/false or
+    - print sentence
+    - for-loop, if-condition
+    - includes()
 
 2. calculator
-   - with object constructor function 
+    - with object constructor function 
 
 3. check function for word , number
-   - logical & comparison operators (including !)
-   - isNaN functions
+    - logical & comparison operators (including !)
+    - isNaN functions
 
 4. check even or odd 
-  - one number
-  - numbers 0 to n
-  - ternary ? : 
-  - mod
+    - one number
+    - numbers 0 to n
+    - ternary ? : 
+    - mod
 
 5. Dice function
-   -adjustible dice roll, for dice with variable number of sides
-   -closure   
+    - adjustible dice roll, for dice with variable number of sides
+    - closure   
 
 6. endsWith  
-   - another answer for **afternoon exercise 1 01.12.2021**
+    - another answer for **afternoon exercise 1 01.12.2021**
 
 7. fibonacci sequence function
-   - for-loop
-   - array.push()
-   - ***recursion*** _new_
+    - for-loop
+    - array.push()
+    - ***recursion*** _new_
 
 8. filter
-   - includes **exercise 1 afternoon 01.12.2021**   
-   - filter array of strings by first char of string
+    - includes **exercise 1 afternoon 01.12.2021**   
+    - filter array of strings by first char of string
 
 9. first letter uppercase function (each word in string)
-   - toUpperCase ()
-   - split(), charAt(), push(), slice(), join()
-   - with for...of
-   - with forEach
+    - toUpperCase ()
+    - split(), charAt(), push(), slice(), join()
+    - with for...of
+    - with forEach
 
 10. Fisher Yates Algorithm
-   - ***random shuffle elements in array***
+    - ***random shuffle elements in array***
 
 11. fizzbuzz - function
-   - for-loop, else-if
-   - logical and comparison operators   
+    - for-loop, else-if
+    - logical and comparison operators   
 
 12. forEach   
-   - ***vowel counter*** in string with ***fallback assignment***
+    - ***vowel counter*** in string with ***fallback assignment***
 
 13. geometric sequence function 
-   - for-loop 
-   - Math.pow()
+    - for-loop 
+    - Math.pow()
 
 14. get_num_array_objects_property_value
-   - count instances of property value from objects in array
-   - reduce()  
-   - ternary 
+    - count instances of property value from objects in array
+    - reduce()  
+    - ternary 
 
 15. ladder
     -object with method-chaining
 
 16. largest number in array and
    largest sub-array functions
-   - for-loop   
-   - if-statement
-   - Math.max()
-   - spread operator ...
+    - for-loop   
+    - if-statement
+    - Math.max()
+    - spread operator ...
 
 17. map
     - show first and last character in array of strings
 
 18. multi-dimensional array multiplication function
-   - nested for loop (2 loops)
-   - multiplication assignment operator
+    - nested for loop (2 loops)
+    - multiplication assignment operator
 
 19. Palindrome 1.
-   - for-loop   
-   - if-statement
+    - for-loop   
+    - if-statement
 
 20. Random number 
     - between min & max
     - get a random number (e.g. useful for games)   
 
 21. reduce
-   - examples from **01.12.2021**
+    - examples from **01.12.2021**
 
 22. reverse number function
-   - string methods
+    - string methods
      **split(), reverse(), join()**
-   - number constructor
+    - number constructor
      Number()   
 
 23. sort stuff
@@ -123,13 +123,13 @@
     - sort()   
 
 24. scramble words
-    -from ***Mock exam advanced PB*** by James
-    -Fisher Yates Algorithm
-    -array methods
-    -includes()
+    - from ***Mock exam advanced PB*** by James
+    - Fisher Yates Algorithm
+    - array methods
+    - includes()
 
 25. sum of multiples functions
-   - with one and three arguments
-   - modulo, logical + comparison operators
-   - for-loop, if-condition       
+    - with one and three arguments
+    - modulo, logical + comparison operators
+    - for-loop, if-condition       
  
