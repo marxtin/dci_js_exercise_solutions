@@ -63,70 +63,72 @@
    - with for...of
    - with forEach
 
-10. fizzbuzz - function
+10. Fisher Yates Algorithm
+   - ***random shuffle elements in array***
+
+11. fizzbuzz - function
    - for-loop, else-if
    - logical and comparison operators   
 
-11. forEach   
+12. forEach   
    - ***vowel counter*** in string with ***fallback assignment***
 
-12. geometric sequence function 
+13. geometric sequence function 
    - for-loop 
    - Math.pow()
 
-13. get_num_array_objects_property_value
+14. get_num_array_objects_property_value
    - count instances of property value from objects in array
    - reduce()  
    - ternary 
 
-14. ladder
+15. ladder
     -object with method-chaining
 
-15. largest number in array and
+16. largest number in array and
    largest sub-array functions
    - for-loop   
    - if-statement
    - Math.max()
    - spread operator ...
 
-16. map
+17. map
     - show first and last character in array of strings
 
-17. multi-dimensional array multiplication function
+18. multi-dimensional array multiplication function
    - nested for loop (2 loops)
    - multiplication assignment operator
 
-18. Palindrome 1.
+19. Palindrome 1.
    - for-loop   
    - if-statement
 
-19. Random number 
+20. Random number 
     - between min & max
     - get a random number (e.g. useful for games)   
 
-20. reduce
+21. reduce
    - examples from **01.12.2021**
 
-21. reverse number function
+22. reverse number function
    - string methods
      **split(), reverse(), join()**
    - number constructor
      Number()   
 
-22. sort stuff
+23. sort stuff
     - alphabetically, digits 0-9
     - nested loop
     - split(),join()
     - sort()   
 
-23. scramble words
+24. scramble words
     -from ***Mock exam advanced PB*** by James
-    -replace()
-    -RegExp
-    -parseInt()
+    -Fisher Yates Algorithm
+    -array methods
+    -includes()
 
-
-24. sum of multiples functions
+25. sum of multiples functions
    - with one and three arguments
    - modulo, logical + comparison operators
    - for-loop, if-condition       
