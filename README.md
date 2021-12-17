@@ -11,6 +11,10 @@
    ***Assessment Test*** of 16.11.2021
    --> my solutions with explanations for the tougher tasks
 
+- pb_assessment_17_12_21
+   ***Assessment Test**** of 17.12.21
+   --> my revised solutions (they passed all tests)   
+
 #### 1.2. official solutions by Sebastian
 
 - seb_sol_objects-practice-4
